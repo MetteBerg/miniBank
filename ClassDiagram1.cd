@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Mette_miniBank.Engines.TransactionEngine">
+    <Position X="15.25" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Engines\TransactionEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mette_miniBank.Repositories.AccountRepository">
+    <Position X="18.25" Y="2.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAQAAIAAAAA=</HashCode>
+      <FileName>Repositories\AccountRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mette_miniBank.Repositories.CustomerRepository">
+    <Position X="18.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Repositories\CustomerRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mette_miniBank.Repositories.TransactionRepository">
+    <Position X="18.25" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAEAAAAAAAAAAAIAgAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Repositories\TransactionRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mette_miniBank.Types.BankAccountBase">
+    <Position X="8.25" Y="5.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgEAAIAAEQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Types\BankAccountBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mette_miniBank.Types.BusinessCustomer">
+    <Position X="10.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Types\BusinessCustomer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mette_miniBank.Types.CheckingAccount">
+    <Position X="11.75" Y="5.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAQAEAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Types\CheckingAccount.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mette_miniBank.Types.CustomerBase">
+    <Position X="8.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Types\CustomerBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mette_miniBank.Types.PrivateCustomer">
+    <Position X="10.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Types\PrivateCustomer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mette_miniBank.Types.Transaction">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQCgACAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Types\Transaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mette_miniBank.Program">
+    <Position X="15.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAIQAUEUAAAAAAAAAAAAJAAAAAI=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Mette_miniBank.Interfaces.ITransaction">
+    <Position X="15.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAEAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Interfaces\ITransaction.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Mette_miniBank.Types.Currency">
+    <Position X="15.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Types\CurrencyEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
